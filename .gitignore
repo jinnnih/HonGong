@@ -1,0 +1,9 @@
+# 모든 파일 무시
+*
+
+# c 파일만 허용
+!*.c
+
+
+# . gitignore
+!.gitignore
