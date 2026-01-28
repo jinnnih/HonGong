@@ -1,16 +1,16 @@
-# ===== Visual Studio =====
+# Visual Studio
 .vs/
-x64/
 *.vcxproj.user
+*.slnx
+*.filters
 
-# ===== Build outputs =====
+# Build outputs
+x64/
 *.exe
 *.obj
 *.o
 *.out
 
-# ===== Logs =====
+# Temporary / Logs
 *.log
-
-# ===== Temp =====
 *.tmp
