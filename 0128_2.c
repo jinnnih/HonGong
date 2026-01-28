@@ -57,7 +57,7 @@ int main(void)
 			}
 		}
 
-		if (duplicate)
+		if (duplicate) // 중복된 값을 지나치기
 		{
 			printf("같은 번호가 있습니다.!\n");
 			i--; // 되돌리기
@@ -73,10 +73,10 @@ int main(void)
 	//	num[0], num[1], num[2], num[3], num[4], num[5]);
 	
 	printf("입력된 로또 번호 :");
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 6; i++)  // for문을 적용해서 출력해보기
 	{
 		printf(" % d", num[i]);
 	}
 	return 0;
 
-}   // 일단 여기까지.... 해결하지 못함 ... 
+}   
